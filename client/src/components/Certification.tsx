@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { motion } from 'motion/react'
 import { Award, CalendarDays } from 'lucide-react'
 

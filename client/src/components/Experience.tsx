@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { motion } from 'motion/react'
 import {
   BriefcaseBusiness,
@@ -62,7 +62,7 @@ const Experience = () => {
       viewport={{ once: true, amount: 0.15 }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
       whileHover={{ y: -6 }}
-      className="group relative flex h-full flex-col rounded-[2rem] border border-slate-200 bg-white p-7 transition-all duration-300 hover:border-blue-200 hover:shadow-xl hover:shadow-slate-200/60 sm:p-8"
+      className="group relative flex h-full flex-col rounded-4xl border border-slate-200 bg-white p-7 transition-all duration-300 hover:border-blue-200 hover:shadow-xl hover:shadow-slate-200/60 sm:p-8"
     >
       {/* Card Header */}
       <div className="mb-5 flex items-start justify-between gap-3">
@@ -185,7 +185,7 @@ const Experience = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="mt-20 flex flex-col items-center justify-between gap-4 rounded-[2rem] border border-slate-200 bg-slate-50 px-8 py-6 sm:flex-row"
+            className="mt-20 flex flex-col items-center justify-between gap-4 rounded-4xl border border-slate-200 bg-slate-50 px-8 py-6 sm:flex-row"
           >
             <div>
               <p className="text-base font-semibold text-slate-900">
@@ -235,13 +235,13 @@ const Experience = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="group relative flex flex-col items-start gap-6 rounded-[2rem] border border-slate-200 bg-white p-8 transition-all duration-300 hover:border-blue-200 hover:shadow-xl hover:shadow-slate-200/60 sm:flex-row sm:items-center sm:p-10"
+            className="group relative flex flex-col items-start gap-6 rounded-4xl border border-slate-200 bg-white p-8 transition-all duration-300 hover:border-blue-200 hover:shadow-xl hover:shadow-slate-200/60 sm:flex-row sm:items-center sm:p-10"
           >
             <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-3xl bg-blue-50 text-blue-600 transition-colors group-hover:bg-blue-600 group-hover:text-white">
               <GraduationCap size={32} />
             </div>
             
-            <div className="flex-grow">
+            <div className="grow">
               <h3 className="text-xl font-bold text-slate-900 sm:text-2xl">
                 Bachelor of Science in Information Technology
               </h3>

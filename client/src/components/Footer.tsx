@@ -1,5 +1,5 @@
 
-import React from 'react'
+
 import { Mail, Phone, MapPin, ArrowUpRight } from 'lucide-react'
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 

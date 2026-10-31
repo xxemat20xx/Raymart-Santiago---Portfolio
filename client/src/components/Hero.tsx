@@ -110,7 +110,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 0.95, y: 15 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="order-1 mx-auto w-full max-w-[170px] sm:max-w-[200px] md:order-2 md:max-w-[280px]"
+            className="order-1 mx-auto w-full max-w-42.5 sm:max-w-50 md:order-2 md:max-w-70"
           >
             <div className="relative rounded-2xl border border-slate-200 bg-slate-50 p-1.5 shadow-lg shadow-slate-200/50">
               <img

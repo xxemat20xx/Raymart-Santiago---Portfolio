@@ -152,7 +152,7 @@ const ProjectCard = ({ project, index }: { project: any; index: number }) => {
         target="_blank"
         rel="noopener noreferrer"
         aria-label={`View ${project.title}`}
-        className="relative block aspect-[16/10] overflow-hidden bg-slate-100"
+        className="relative block aspect-16/10 overflow-hidden bg-slate-100"
       >
         <img
           src={project.image}
@@ -161,7 +161,7 @@ const ProjectCard = ({ project, index }: { project: any; index: number }) => {
           className="h-full w-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105"
         />
 
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-950/50 via-transparent to-transparent opacity-60 transition-opacity duration-300 group-hover:opacity-90" />
+        <div className="absolute inset-0 bg-linear-to-t from-slate-950/50 via-transparent to-transparent opacity-60 transition-opacity duration-300 group-hover:opacity-90" />
 
         {isFeatured && (
           <span className="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full border border-white/30 bg-white/90 px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider text-slate-800 shadow-sm backdrop-blur-md">

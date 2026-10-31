@@ -1,0 +1,337 @@
+import heroImage from "./assets/images/pic1.png";
+import ticTacToeImage from "./assets/images/ticTacToe.jpg";
+import restaurantPageImage from "./assets/images/restaurant.jpg";
+import toDoListImage from "./assets/images/toDoList.jpg";
+import weatherAppImage from "./assets/images/weather-app.jpg";
+import battleshipImage from "./assets/images/battleship.jpg";
+import memoryCardImage from "./assets/images/memoryCard.jpg";
+import shoppingCartImage from "./assets/images/shopping-cart.jpg";
+import responsiveLandingPageImage from "./assets/images/responsiveLandingPageImage.jpg";
+import BookingApp from "./assets/images/BookingApp.png";
+import InventoryApp from "./assets/images/InventoryApp.png";
+import HRApp from "./assets/images/HRApp.png";
+import RealEstate from "./assets/images/realestate.png";
+import FoodOrderingApp from "./assets/images/food-ordering.png";
+import EcomApp from './assets/images/ecom-app.png'
+import EmalScheduler from './assets/images/Email-scheduler.png'
+/* ===========================
+   TECH DEFINITIONS (Reusable)
+=========================== */
+
+const TECH = {
+  HTML: {
+    id: "html",
+    name: "HTML",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+  },
+  CSS: {
+    id: "css",
+    name: "CSS",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+  },
+  JS: {
+    id: "javascript",
+    name: "JavaScript",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+  },
+  TYPESCRIPT: {
+    id: "typescript",
+    name: "TypeScript",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+  },
+  REACT: {
+    id: "react",
+    name: "React",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+  },
+  TAILWIND: {
+    id: "tailwind",
+    name: "Tailwind CSS",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+  },
+  ZUSTAND: {
+    id: "zustand",
+    name: "Zustand",
+    icon: "https://raw.githubusercontent.com/pmndrs/zustand/main/examples/demo/public/favicon.ico",
+  },
+  GIT: {
+    id: "git",
+    name: "Git",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+  },
+  GITHUB: {
+    id: "github",
+    name: "GitHub",
+    icon: "https://skillicons.dev/icons?i=github",
+  },
+  NODE: {
+    id: "node",
+    name: "Node.js",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+  },
+  EXPRESS: {
+    id: "express",
+    name: "Express",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+  },
+  MONGODB: {
+    id: "mongodb",
+    name: "MongoDB",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+  },
+  CLOUDINARY: {
+    id: "cloudinary",
+    name: "Cloudinary",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/cloudinary.svg",
+  },
+  GOOGLE_OAUTH: {
+    id: "google-oauth",
+    name: "Google OAuth",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg",
+  },
+  PAYMONGO: {
+    id: "paymongo",
+    name: "PayMongo",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P2c6cStj8KyLnG9CJelgJtGejjnCphBbhw&s",
+  },
+  XENDIT: {
+    id: "xendit",
+    name: "Xendit",
+    icon: "https://seeklogo.com/images/X/xendit-logo-5C59A91C5B-seeklogo.com.png",
+  },
+};
+
+/* ===========================
+   MAIN DATA EXPORT
+=========================== */
+
+export const data = {
+  heroData: {
+    id: 1,
+    name: "Raymart",
+    heroParagraph:
+      "Full Stack Developer with hands-on experience building web applications using the MERN and PERN stacks. Skilled in developing responsive user interfaces, RESTful APIs, authentication systems, database integrations, and real-time features. Proficient in JavaScript, TypeScript, React.js, Node.js, Express.js, PostgreSQL, and MongoDB. Brings over 5 years of IT experience in enterprise environments, with a strong foundation in troubleshooting, system monitoring, incident management, and technical support. Passionate about developing scalable, maintainable, and user-focused applications.",
+    heroImage: heroImage,
+  },
+
+  techStackData: {
+    id: 1,
+    techStackImage: [
+      TECH.HTML,
+      TECH.CSS,
+      TECH.JS,
+      TECH.TYPESCRIPT,
+      TECH.REACT,
+      TECH.TAILWIND,
+      TECH.GIT,
+      TECH.GITHUB,
+      TECH.NODE,
+      TECH.EXPRESS,
+      TECH.MONGODB,
+    ],
+  },
+
+  projectData: [
+    {
+      id: 4,
+      projectName: "Tic Tac Toe",
+      projectDescription: "Interactive Tic Tac Toe game built with JavaScript.",
+      projectLink: "https://xxemat20xx.github.io/TicTacToe/",
+      projectImage: ticTacToeImage,
+      techUsed: [TECH.HTML, TECH.CSS, TECH.JS],
+    },
+
+    {
+      id: 6,
+      projectName: "To-Do List",
+      projectDescription: "To-Do app with Local Storage functionality.",
+      projectLink: "https://xxemat20xx.github.io/OdinProject-Todolist/",
+      projectImage: toDoListImage,
+      techUsed: [TECH.HTML, TECH.CSS, TECH.JS],
+    },
+
+    {
+      id: 7,
+      projectName: "Weather App",
+      projectDescription: "Weather app with API integration.",
+      projectLink: "https://xxemat20xx.github.io/OdinProject--WeatherApp/",
+      projectImage: weatherAppImage,
+      techUsed: [TECH.HTML, TECH.CSS, TECH.JS],
+    },
+
+    {
+      id: 8,
+      projectName: "Battleship",
+      projectDescription: "Battleship game with player vs computer logic.",
+      projectLink: "https://xxemat20xx.github.io/OdinProject-Battleship/",
+      projectImage: battleshipImage,
+      techUsed: [TECH.HTML, TECH.CSS, TECH.JS],
+    },
+
+    {
+      id: 9,
+      projectName: "Memory Card",
+      projectDescription: "React project with API integration.",
+      projectLink: "https://xxemat20xx.github.io/Memory-card/",
+      projectImage: memoryCardImage,
+      techUsed: [TECH.HTML, TECH.CSS, TECH.JS, TECH.REACT],
+    },
+
+    {
+      id: 10,
+      projectName: "Shopping Cart",
+      projectDescription: "E-commerce app with FakeStore API and cart logic.",
+      projectLink: "https://odinproject-shoppingcart.netlify.app/",
+      projectImage: shoppingCartImage,
+      techUsed: [TECH.HTML, TECH.CSS, TECH.JS, TECH.REACT, TECH.TAILWIND],
+    },
+
+    {
+      id: 11,
+      projectName: "Responsive Landing Page",
+      projectDescription:
+        "Fully responsive landing page with slider functionality.",
+      projectLink:
+        "https://xxemat20xx.github.io/Old-Project---Responsive-Website/",
+      projectImage: responsiveLandingPageImage,
+      techUsed: [TECH.HTML, TECH.CSS, TECH.JS],
+    },
+    {
+      id: 12,
+      projectName: "MERN Booking and Scheduling App",
+      projectDescription:
+        "A full-stack MERN application for booking and scheduling appointments with real-time updates and user authentication.",
+      projectLink: "https://mern-booking-and-scheduling-system.onrender.com/",
+      projectImage: BookingApp,
+      techUsed: [
+        TECH.HTML,
+        TECH.CSS,
+        TECH.JS,
+        TECH.MONGODB,
+        TECH.REACT,
+        TECH.NODE,
+        TECH.EXPRESS,
+        TECH.TAILWIND,
+      ],
+    },
+    {
+      id: 13,
+      projectName: "MERN Inventory App",
+      projectDescription:
+        "A full-stack MERN application for managing inventory, featuring CRUD operations, and a responsive dashboard.",
+      projectLink: "https://mern-inventory-app-i0bh.onrender.com/dashboard",
+      projectImage: InventoryApp,
+      techUsed: [
+        TECH.HTML,
+        TECH.CSS,
+        TECH.JS,
+        TECH.MONGODB,
+        TECH.REACT,
+        TECH.NODE,
+        TECH.EXPRESS,
+        TECH.TAILWIND,
+      ],
+    },
+    {
+      id: 14,
+      projectName: "MERN HR Management App",
+      projectDescription:
+        "A MERN stack HR management app to track employees, manage departments, and handle basic HR tasks with a clean and responsive interface.",
+      projectLink: "https://mern-employee-management-oe7p.onrender.com/",
+      projectImage: HRApp,
+      techUsed: [
+        TECH.HTML,
+        TECH.CSS,
+        TECH.JS,
+        TECH.MONGODB,
+        TECH.REACT,
+        TECH.NODE,
+        TECH.EXPRESS,
+        TECH.TAILWIND,
+      ],
+    },
+
+    {
+      id: 15,
+      projectName: "Real Estate App with Admin CMS",
+      projectDescription:
+        "Real Estate Project App is a full-stack MERN web application built with modern technologies, featuring secure authentication, email integration, cloud-based image handling, map-based property viewing, virtual property tours via YouTube, and a complete Admin CMS system.",
+      projectLink: "https://www.ematsproject.store/",
+      projectImage: RealEstate,
+      techUsed: [
+        TECH.HTML,
+        TECH.CSS,
+        TECH.JS,
+        TECH.MONGODB,
+        TECH.REACT,
+        TECH.NODE,
+        TECH.EXPRESS,
+        TECH.TAILWIND,
+        TECH.CLOUDINARY,
+      ],
+    },
+    {
+      id: 16,
+      projectName: "Food Ordering App with Admin CMS",
+      projectDescription:
+        "A full-stack Food Delivery / Food Ordering Web Application built with the MERN Stack, featuring secure authentication, online payments, and an admin CMS for managing products, stores, and orders.",
+      projectLink: "https://food-delivery-app-green-eight.vercel.app/",
+      projectImage: FoodOrderingApp,
+      techUsed: [
+        TECH.HTML,
+        TECH.CSS,
+        TECH.JS,
+        TECH.MONGODB,
+        TECH.REACT,
+        TECH.NODE,
+        TECH.EXPRESS,
+        TECH.TAILWIND,
+        TECH.CLOUDINARY,
+        TECH.PAYMONGO,
+      ],
+    },
+
+    {
+      id: 17,
+      projectName: "E-commerce App with Admin CMS",
+      projectDescription:
+        "A responsive E-commerce Web Application built with the MERN Stack, featuring secure authentication, online payments, and an admin CMS for managing products, stores, and orders.",
+      projectLink: "https://ts-ecommerce-project.vercel.app/",
+      projectImage: EcomApp,
+      techUsed: [
+        TECH.HTML,
+        TECH.CSS,
+        TECH.TYPESCRIPT,
+        TECH.ZUSTAND,
+        TECH.MONGODB,
+        TECH.REACT,
+        TECH.NODE,
+        TECH.EXPRESS,
+        TECH.TAILWIND,
+        TECH.CLOUDINARY,
+        TECH.GOOGLE_OAUTH,
+        TECH.XENDIT,
+      ],
+    },
+    {
+      id: 18,
+      projectName: "Email Scheduler",
+      projectDescription:
+        "Schedule and receive a personalized email every day at your preferred time. Built with Google Authentication for seamless and secure access.",
+      projectLink: "https://email-scheduler-app-five.vercel.app/",
+      projectImage: EmalScheduler,
+      techUsed: [
+        TECH.HTML,
+        TECH.CSS,
+        TECH.TYPESCRIPT,
+        TECH.ZUSTAND,
+        TECH.MONGODB,
+        TECH.REACT,
+        TECH.NODE,
+        TECH.EXPRESS,
+        TECH.TAILWIND,
+        TECH.GOOGLE_OAUTH,
+      ],
+    },
+  ],
+};

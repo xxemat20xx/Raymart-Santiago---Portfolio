@@ -1,0 +1,7 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="13" fill="#101827"></rect>
+  <path d="M45 0H64V19Z" fill="#22D3EE"></path>
+  <text x="32" y="39" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="-1.8" fill="#FFFFFF">RTS</text>
+  <path d="M18 47H46" stroke="#22D3EE" stroke-width="3" stroke-linecap="round"></path>
+</svg>

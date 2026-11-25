@@ -37,6 +37,15 @@ const experiences = [
       'Provided Level 1/2 technical support, troubleshot hardware and software issues, deployed workstations and Cisco IP phones, and managed service requests and incident documentation.',
     skills: ['Desktop Support', 'Hardware & Software', 'Cisco IP Phones', 'Technical Support'],
   },
+    {
+    position: 'Freelance Graphic Designer/Web Developer',
+    company: 'Upwork',
+    client: '',
+    period: 'March 2020 – January 2022',
+    description:
+      'Provided freelance digital services to clients, including graphic design, web development, application testing, and marketing materials creation. Designed promotional graphics, flyers, and other visual assets while developing and testing websites and applications to ensure functionality, usability, and quality.',
+    skills: ['Graphic Design', 'Web Development', 'Application Testing', 'Marketing Materials'],
+  },
   {
     position: 'Graphic Artist / IT Staff',
     company: 'Firebird Holdings Corporation',
@@ -189,7 +198,7 @@ const Experience = () => {
           >
             <div>
               <p className="text-base font-semibold text-slate-900">
-                5+ Years of Professional IT Experience
+                6+ Years of Professional IT Experience
               </p>
               <p className="mt-1 text-sm text-slate-500">
                 From technical support to enterprise IT operations.

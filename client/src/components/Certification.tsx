@@ -7,6 +7,7 @@ const certifications = [
   { title: 'Learning SQL Programming', issuer: 'Training', year: '2026' },
   { title: 'Microsoft Power Automate Essential Training', issuer: 'Microsoft', year: '2026' },
   { title: 'ServiceNow: Basic Administration', issuer: 'ServiceNow', year: '2026' },
+  { title: 'ServiceNow: ITSM Implementation Simulator', issuer: 'ServiceNow', year: '2026' },
   { title: 'SQL Practice: Basic Queries', issuer: 'Training', year: '2026' },
   { title: 'Endpoint Security', issuer: 'Cisco', year: '2024' },
   { title: 'Introduction to Data Science', issuer: 'Cisco', year: '2024' },

@@ -140,13 +140,7 @@ const Hero = () => {
   </h1>
 
   <p className="mx-auto mt-5 max-w-xl text-sm leading-7 text-slate-600 sm:text-base md:mx-0">
-    Full Stack Developer with hands-on experience building
-    web applications using the MERN and PERN stacks.
-    Skilled in developing responsive interfaces, RESTful APIs,
-    authentication systems, and database integrations.
-    Bringing over 5 years of IT experience in enterprise
-    environments, with a strong foundation in troubleshooting,
-    system monitoring, and technical support.
+    IT professional with over 6+ years of experience in IT Service Desk, Helpdesk Operations, Command Center Support, and ServiceNow administration. Skilled in incident management, technical troubleshooting, user support, system monitoring, and ITSM processes. Experienced in handling hardware, software, access, and enterprise system issues while ensuring timely resolution and service continuity. Proficient in ServiceNow for incident tracking, documentation, and IT service management.
   </p>
 
   <div className="mt-8 flex w-full flex-wrap justify-center gap-3 md:justify-start">
